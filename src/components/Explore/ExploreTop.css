@@ -1,0 +1,49 @@
+#outer{
+    padding-top: 72px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(229, 244, 255, 0.44) 100%)
+}
+#exploreTop{
+    display: grid;
+    height: 307px;
+    max-width: 1136px;
+    margin: auto;
+    width: 100%;
+    background-image: url(https://static.uacdn.net/production/_next/static/images/goal/managegoal-test-prep-light.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: background 1s ease-in-out 0s;
+    justify-content: start;
+    justify-items: stretch;
+    align-items: end;
+}
+
+.searchIcon{
+    max-width: 1rem;
+}
+
+.inputDiv{
+    display: flex;
+    border-bottom: 1px solid #e9eef2;
+    gap: 1rem;
+}
+.inputDiv input{
+    height: 1.7rem;
+    outline: none;
+    border: none;
+    width: 12rem;
+    font-size: 24px;
+    font-weight: 500;
+    color: #3C4852;
+    background-color:#00000000;
+}
+.btn1{
+    border: none;
+   background-color: #e9e8f130;
+   font-size: large;
+   cursor: pointer;
+  
+   margin: 1rem;
+   /* border-bottom: 2px solid black; */
+   border-radius: 10%;
+}
