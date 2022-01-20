@@ -19,6 +19,7 @@ function Home() {
     // <BeforeHomePageStyled>
     <>
       <LoadingBar color="#08BD80" height="4px" ref={ref} />
+      <div className="parent_head">
       <div className="header">
         <div className="navbar">
           <img
@@ -130,6 +131,7 @@ function Home() {
         </div>
       </div>
       <Footer />
+      </div>
       </>
     
   );
