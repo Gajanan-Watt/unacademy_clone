@@ -3,6 +3,7 @@
   
     display: grid;
     grid-template-columns: 28% 68%;
+    margin-top: 5rem;
    
 }
 a{
@@ -70,10 +71,14 @@ a{
     margin: 0px;
     line-height: 8px;
     margin-left: 6rem;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     font-weight: 500;
+    /* position: sticky; */
+height: 20rem;
+   
+}
+.leftheadings{
+    position: -webkit-sticky;
     position: sticky;
-
-    /* overflow-y: auto;
-    overflow-x: hidden; */
+    top: 5rem;
 }
