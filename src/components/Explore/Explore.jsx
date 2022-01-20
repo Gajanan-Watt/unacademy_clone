@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { useSelector } from "react-redux"
 import { useDispatch } from "react-redux"
 import { useNavigate } from "react-router-dom"
-import { getdataError, getdataLoading, getdataSuccess, goalData } from "../../store/action"
+import { getdataError, getdataLoading, getdataSuccess,getdata2Error, getdata2Loading, getdata2Success, goalData } from "../../store/action"
 import { ExploreTop } from "./ExploreTop"
 import "./Explore.css"
 
@@ -13,7 +13,7 @@ export const Explore = () => {
     const navigate = useNavigate()
 
 
-    const { data } = useSelector((state) => ({ data: state.data }))
+    const { data,data2 } = useSelector((state) => ({ data: state.data,data2:state.data2 }))
 
     
 
@@ -25,6 +25,15 @@ export const Explore = () => {
             .then(res => res.json())
             .then(d => dispatch(getdataSuccess(d)))
             .catch(err => dispatch(getdataError(err)))
+    }, [])
+
+    useEffect(() => {
+
+        dispatch(getdata2Loading())
+        fetch('http://localhost:3001/second')
+            .then(res => res.json())
+            .then(d => dispatch(getdata2Success(d)))
+            .catch(err => dispatch(getdata2Error(err)))
     }, [])
 
 
@@ -44,7 +53,7 @@ setFlag(flag)
    
     return <div>
         <ExploreTop sendFlag={sendFlag} />
-        {flag==0 ? <div className="mainDiv">
+        {flag==1 ? <div className="mainDiv">
         <div className="leftheadings">
                 <a href="#cbse"><p>CBSE</p></a>
                 <a href="#mh"><p>Maharashtra State Board</p></a>
@@ -91,7 +100,61 @@ setFlag(flag)
                     }
                 </div>
             </div>
-        </div>:"hello" }
+
+
+
+
+        </div> : <div className="mainDiv">
+
+
+
+        <div className="leftheadings">
+                <a href="#upsc"><p>UPSC CSE</p></a>
+                <a href="#govt"><p>Govt Exams</p></a>
+                <a href="#defence"><p>Defence Exams</p></a>
+                <p>JEE and NEET Preparation</p>
+                <p>State PSC</p>
+            </div>
+            <div className="scrolldiv">
+
+            <div className="titleDiv"><p id="upsc">CBSE</p></div>
+                <div className="dataDiv">
+                    {
+                        data2.UPSC_CSE.map((el) => (
+                            <div className="innerdiv" onClick={() => handleClick(el)}>
+                                <img src={el.img} alt="" />
+                                <p>{el.name}</p>
+                            </div>
+
+                        ))
+                    }
+                </div>
+                <div className="titleDiv"><p id="govt">Govt Exams</p></div>
+                <div className="dataDiv">
+                    {
+                        data2.Govt_Exams.map((el) => (
+                            <div className="innerdiv" onClick={() => handleClick(el)}>
+                                <img src={el.img} alt="" />
+                                <p>{el.name}</p>
+                            </div>
+
+                        ))
+                    }
+                </div>
+                <div className="titleDiv"><p id="defence">Defence Exams</p></div>
+                <div className="dataDiv">
+                    {
+                        data.USB.map((el) => (
+                            <div className="innerdiv" onClick={() => handleClick(el)}>
+                                <img src={el.img} alt="" />
+                                <p>{el.name}</p>
+                            </div>
+
+                        ))
+                    }
+                </div>
+            </div>
+        </div> }
        
     </div>
 
