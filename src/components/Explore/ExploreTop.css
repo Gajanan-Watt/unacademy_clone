@@ -42,7 +42,7 @@
    background-color: #e9e8f130;
    font-size: large;
    cursor: pointer;
-  
+    color: rgba(65, 59, 59, 0.521);
    margin: 1rem;
    /* border-bottom: 2px solid black; */
    border-radius: 10%;
