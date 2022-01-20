@@ -46,6 +46,7 @@
     margin-top: 123px;
     margin-bottom: 108px;
     align-items: flex-start;
+    text-align: justify;
 }
 #free{
      font-size: 12px;

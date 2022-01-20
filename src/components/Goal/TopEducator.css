@@ -1,7 +1,102 @@
-.sidebarflex{
+
+
+.headDivtop{
+    margin-top: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 10rem;
+}
+.topheadedu{
+    text-align: justify;  
+    font-weight: bold;
+    /* font-size: 24px; */
+    line-height: 120%;
+    color: #3c4852;
+    margin: 0px;
+    font-size: 32px;
+}
+.topheadedup{
+    text-align: justify;
+    line-height: 113%;
+    font-size: 20px;
+    margin-bottom: 4rem;
+    display: block;
+}
+.See{
     display: flex;
+    margin-left: 66rem;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    /* margin-top: 2rem; */
+    color: #08bd80;
+    border-bottom: 1px dashed #08bd80;
+}
+
+
+
+.sidebarflex{ 
+  
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    width: 440px;
+    height: 9rem;
+    align-items: center;
+    padding: 24px;
+    box-shadow: 0px 16px 32px 4px #eceff1;
+    border-radius: 8px;
+    margin-left: 40px;
+    
+    
+    background-color: white;
+}
+    
+
+#sideimg{
+    height: 164px;
+    width: 126px;
+    margin: 1rem -3rem;
+    border-radius: 11%;
+}
+.tophead{
+     display: flex;
+      gap: 2rem;
+    }
+
+.dataname{
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 120%;
+    margin-left: 2rem;
+    color: #3c4852;
+    margin-top: 12px;
+}
+.dataname h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3c4852;
+    margin: 0px;
+}
+.swiper-pagination-bullets {
+    display: none;
+}
+.swiper-button-next{
+    /* background-color: white; */
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
+    margin-left: 2rem;
     
 }
-#sideimg{
-    height: 200px;
+.swiper-button-prev {
+    /* background-color: white; */
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
+    /* margin:; */
 }
