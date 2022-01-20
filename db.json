@@ -4526,7 +4526,7 @@
     }
     ,
     "second":{
-        "UPSC CSE": [
+        "UPSC_CSE": [
             {
               "id": "1",
               "name": "UPSC CSE-Optional",
@@ -4690,7 +4690,7 @@
               }
         ],
 
-        "Govt Exams": [
+        "Govt_Exams": [
             {
               "id": "1",
               "name": "Bank Exams",

@@ -1,4 +1,4 @@
-import { GETDATA_ERROR, GETDATA_LOADING, GETDATA_SUCCESS, GOAL_DATA } from "./actionType"
+import { GETDATA_ERROR, GETDATA_LOADING, GETDATA_SUCCESS,GETDATA2_ERROR, GETDATA2_LOADING, GETDATA2_SUCCESS, GOAL_DATA } from "./actionType"
 
 export const getdataLoading=()=>{
     return {
@@ -20,6 +20,35 @@ export const getdataError=(payload)=>{
         payload
     }
 }
+
+
+
+export const getdata2Loading=()=>{
+    return {
+        type:GETDATA2_LOADING
+    }
+}
+
+export const getdata2Success=(payload)=>{
+    console.log('action',payload);
+    return {
+        type:GETDATA2_SUCCESS,
+        payload
+    }
+}
+
+export const getdata2Error=(payload)=>{
+    return {
+        type:GETDATA2_ERROR,
+        payload
+    }
+}
+
+
+
+
+
+
 
 export const goalData=(payload)=>{
   
