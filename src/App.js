@@ -4,6 +4,7 @@ import {Explore} from './components/Explore/Explore'
 import {Goal} from './components/Goal/Goal'
 import {Routes,Route} from 'react-router-dom'
 import Home from './components/landing_page/Home'
+import Payment from "./components/payment/Payment"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Route path='/' element={<Explore />}></Route>
     <Route path='/goal' element={<Goal />}></Route>
     <Route path='/home' element={<Home />}></Route>
+    <Route path='/payment' element={<Payment />}></Route>
 
    
     </Routes>
