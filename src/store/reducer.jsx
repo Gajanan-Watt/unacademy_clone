@@ -9,10 +9,12 @@ import {GETDATA_LOADING,
     GOAL_DATA
     } from './actionType'
 
+    import { loadData, saveData } from "../components/utils/localStorage"
+
 const init={loading:false,
     data:{CBSE:[],MSB:[],USB:[]},
     data2:{UPSC_CSE:[],Govt_Exams:[]},
-    error:false,goal:{}}
+    error:false,goal:loadData('goal') || {}}
 
 export const getdataReducer=(state=init,{type,payload})=>{
     switch(type){
@@ -51,10 +53,16 @@ export const getdataReducer=(state=init,{type,payload})=>{
         }
 
 
-        case GOAL_DATA:return{
-            ...state,
-            goal:payload
+        case GOAL_DATA:{
+            saveData('goal',payload)
+            return{
+                ...state,
+                goal:payload
+            }
         }
+            
+        
+       
 
       
 
