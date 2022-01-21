@@ -14,9 +14,10 @@ function App() {
 
 
     <Routes>
-    <Route path='/' element={<Explore />}></Route>
+    <Route path='/' element={<Home />}></Route>
+    <Route path='/explore' element={<Explore />}></Route>
     <Route path='/goal' element={<Goal />}></Route>
-    <Route path='/home' element={<Home />}></Route>
+   
     <Route path='/payment' element={<Payment />}></Route>
 
    
