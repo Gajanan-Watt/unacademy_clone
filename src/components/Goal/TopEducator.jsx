@@ -16,12 +16,27 @@ import "swiper/css/navigation"
 import SwiperCore, {
   Pagination,Navigation
 } from 'swiper';
+import { useDispatch } from "react-redux";
+import { tutorData } from "../../store/action";
+import { useNavigate } from "react-router-dom";
 
 // install Swiper modules
 SwiperCore.use([Pagination,Navigation]);
 
 
 export const TopEducator = ({ name, topTut }) => {
+
+const dispatch=useDispatch()
+const navigate=useNavigate()
+
+const sendTutorData=(tutor)=>{
+    dispatch(tutorData(tutor))
+    navigate(`/goal/tutor/${tutor.name}`)
+}
+
+
+
+
     return <div className="headDivtop">
 
         <h3 className="topheadedu">Prepare with Top Educators</h3>
@@ -34,7 +49,7 @@ export const TopEducator = ({ name, topTut }) => {
             {
                 topTut.map((el) => (
                     <SwiperSlide>
-                    <div className="sidebarflex">
+                    <div onClick={()=>sendTutorData(el)} className="sidebarflex">
                         <div>
                             <img id="sideimg" src={el.img} alt="" />
                         </div>
