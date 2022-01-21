@@ -5,7 +5,14 @@ import ImageShow from "../payment-images/payment-image.jsx";
 import PaymentNavbar from "../payment-images/payment-navbar.jsx";
 import EmiOfferBar from "../iconic-plus/emi.jsx";
 import PlusIconicToggle from "../iconic-plus/iconic-plus.jsx";
+import { useSelector } from "react-redux";
+
+
 function Payment() {
+
+const {goal} = useSelector((state)=>({goal:state.goal}))
+console.log(goal)
+
   return (
     <>
       <PaymentNavbar />

@@ -4531,7 +4531,7 @@
               "id": "1",
               "name": "UPSC CSE-Optional",
               "img": "https://static.uacdn.net/topology/test_default.png",
-              "price":"₹1,389",
+              "price":1389,
               "tutor": [
                 {
                   "id": "1t1",
@@ -4613,7 +4613,7 @@
                 "id": "2",
                 "name": "UPSC CSE - GS",
                 "img": "https://static.uacdn.net/topology/KSCGY/icon/origin.png",
-                "price":"₹4,272",
+                "price":4272,
                 "tutor": [
                   {
                     "id": "1t1",
@@ -4695,7 +4695,7 @@
               "id": "1",
               "name": "Bank Exams",
               "img": "https://static.uacdn.net/topology/RTPSX/icon/origin.png",
-              "price":"₹390",
+              "price":390,
               "tutor": [
                 {
                   "id": "1t1",
@@ -4773,7 +4773,7 @@
                 "id": "2",
                 "name": "Railway Exams",
                 "img": "https://static.uacdn.net/topology/QJEJG/icon/origin.png",
-                "price":"₹417",
+                "price":417,
                 "tutor": [
                   {
                     "id": "1t1",
@@ -4851,7 +4851,7 @@
                 "id": "3",
                 "name": "Bank Regulatory Body Exams",
                 "img": "https://static.uacdn.net/topology/test_default.png",
-                "price":"₹331",
+                "price":331,
                 "tutor": [
                   {
                     "id": "1t1",
@@ -4929,7 +4929,7 @@
                 "id": "4",
                 "name": "SSC Exams (Non Technical)",
                 "img": "https://static.uacdn.net/topology/VLEMN/icon/origin_nYdCk3H.png",
-                "price":"₹390",
+                "price":390,
                 "tutor": [
                   {
                     "id": "1t1",
