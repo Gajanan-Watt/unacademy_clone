@@ -38,40 +38,40 @@ const data = [
 function Footer() {
   return (
     <FooterStyled>
-      <div className='outer'>
-        <div className='one'>
+      <div className="outer">
+        <div className="one">
           <img
-            src='https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=256'
-            alt='logo'
+            src="https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=256"
+            alt="logo"
           />
-          <div className='one1'>
+          <div className="one1">
             <div>
-              <a href='https://www.facebook.com/unacademy/'>
+              <a href="https://www.facebook.com/unacademy/">
                 <FacebookIcon />
               </a>
             </div>
             <div>
-              <a href='https://www.youtube.com/channel/UCABe2FgVNv2hgBeMu2mySVg'>
+              <a href="https://www.youtube.com/channel/UCABe2FgVNv2hgBeMu2mySVg">
                 <YouTubeIcon />
               </a>
             </div>
             <div>
-              <a href='https://twitter.com/unacademy'>
+              <a href="https://twitter.com/unacademy">
                 <TwitterIcon />
               </a>
             </div>
             <div>
-              <a href='https://www.instagram.com/unacademy/'>
+              <a href="https://www.instagram.com/unacademy/">
                 <InstagramIcon />
               </a>
             </div>
             <div>
-              <a href='https://www.linkedin.com/company/unacademy/'>
+              <a href="https://www.linkedin.com/company/unacademy/">
                 <LinkedInIcon />
               </a>
             </div>
           </div>
-          <div className='text1'>© 2021 Sorting Hat Technologies Pvt Ltd</div>
+          <div className="text1">© 2021 Sorting Hat Technologies Pvt Ltd</div>
         </div>
         <div>
           <Footercomp {...data[0]} />
@@ -82,41 +82,41 @@ function Footer() {
         <div>
           <Footercomp {...data[1]} />
         </div>
-        <div className='last'>
-          <div className='title'>LEARNER APP</div>
-          <div className='grid'>
+        <div className="last">
+          <div className="title">LEARNER APP</div>
+          <div className="grid">
             <div>
-              <a href='https://play.google.com/store/apps/details?id=com.unacademyapp&referrer=utm_source%3DFooter%26utm_medium%3DWebApp%26utm_campaign%3DFooter%26'>
+              <a href="https://play.google.com/store/apps/details?id=com.unacademyapp&referrer=utm_source%3DFooter%26utm_medium%3DWebApp%26utm_campaign%3DFooter%26">
                 <img
-                  src='https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&w=128'
-                  alt='app'
+                  src="https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&w=128"
+                  alt="app"
                 />
               </a>
             </div>
             <div>
-              <a href='https://apps.apple.com/in/app/unacademy-learning-app/id1342565069?referrer%3Dutm_source%253DFooter%2526utm_medium%253DWebApp%2526utm_campaign%253DFooter%2526'>
+              <a href="https://apps.apple.com/in/app/unacademy-learning-app/id1342565069?referrer%3Dutm_source%253DFooter%2526utm_medium%253DWebApp%2526utm_campaign%253DFooter%2526">
                 <img
-                  src='https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&w=128'
-                  alt='app'
+                  src="https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&w=128"
+                  alt="app"
                 />
               </a>
             </div>
           </div>
-          <div className='title1'>EDUCATOR APP</div>
-          <div className='grid'>
+          <div className="title1">EDUCATOR APP</div>
+          <div className="grid">
             <div>
-              <a href='https://play.google.com/store/apps/details?id=com.unacademy&referrer=utm_source%3DFooter%26utm_medium%3DWebApp%26utm_campaign%3DFooter%26'>
+              <a href="https://play.google.com/store/apps/details?id=com.unacademy&referrer=utm_source%3DFooter%26utm_medium%3DWebApp%26utm_campaign%3DFooter%26">
                 <img
-                  src='https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&w=128'
-                  alt='app'
+                  src="https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&w=128"
+                  alt="app"
                 />
               </a>
             </div>
             <div>
-              <a href='https://apps.apple.com/in/app/unacademy-educator-app/id1156375099?referrer%3Dutm_source%253DFooter%2526utm_medium%253DWebApp%2526utm_campaign%253DFooter%2526'>
+              <a href="https://apps.apple.com/in/app/unacademy-educator-app/id1156375099?referrer%3Dutm_source%253DFooter%2526utm_medium%253DWebApp%2526utm_campaign%253DFooter%2526">
                 <img
-                  src='https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&w=128'
-                  alt='app'
+                  src="https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&w=128"
+                  alt="app"
                 />
               </a>
             </div>
