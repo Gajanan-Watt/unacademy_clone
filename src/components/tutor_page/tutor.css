@@ -1,0 +1,27 @@
+.tutor_sec {
+  width: 98%;
+  height: 1200px;
+  border: 1px solid red;
+  margin: auto;
+}
+.tutor_header {
+  width: 80%;
+  min-width: 786px;
+  height: 200px;
+  border: 1px solid blue;
+  margin: auto;
+  display: flex;
+}
+.tutor_img {
+  width: 20%;
+  height: 90%;
+  border: 1px solid green;
+}
+.tutor_info {
+  width: 70%;
+  height: 90%;
+  border: 1px solid brown;
+}
+.tutor_btn {
+  height: 30px;
+}

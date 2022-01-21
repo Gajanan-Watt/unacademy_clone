@@ -1,84 +1,84 @@
-import {GETDATA_LOADING,
-    GETDATA_SUCCESS,
-    GETDATA_ERROR,
+import {
+  GETDATA_LOADING,
+  GETDATA_SUCCESS,
+  GETDATA_ERROR,
+  GETDATA2_LOADING,
+  GETDATA2_SUCCESS,
+  GETDATA2_ERROR,
+  GOAL_DATA,
+  TUTOR_DATA,
+} from "./actionType";
 
-    GETDATA2_LOADING,
-    GETDATA2_SUCCESS,
-    GETDATA2_ERROR,
+import { loadData, saveData } from "../components/utils/localStorage";
 
-    GOAL_DATA,
-    TUTOR_DATA
-    } from './actionType'
+const init = {
+  loading: false,
+  data: { CBSE: [], MSB: [], USB: [] },
+  data2: { UPSC_CSE: [], Govt_Exams: [] },
+  error: false,
+  goal: loadData("goal") || {},
+  tutor: loadData("goal") || {},
+};
 
-    import { loadData, saveData } from "../components/utils/localStorage"
+export const getdataReducer = (state = init, { type, payload }) => {
+  switch (type) {
+    case GETDATA_LOADING:
+      return {
+        ...state,
+        loading: true,
+      };
 
-const init={loading:false,
-    data:{CBSE:[],MSB:[],USB:[]},
-    data2:{UPSC_CSE:[],Govt_Exams:[]},
-    error:false,goal:loadData('goal') || {},
-    tutor:loadData('goal') || {}
-}
+    case GETDATA_SUCCESS:
+      return {
+        ...state,
+        data: payload,
+        loading: false,
+      };
 
-export const getdataReducer=(state=init,{type,payload})=>{
-    switch(type){
-        case GETDATA_LOADING:return{
-            ...state,
-            loading:true
-        }
+    case GETDATA_ERROR:
+      return {
+        ...state,
+        loading: false,
+        error: true,
+      };
 
-        case GETDATA_SUCCESS:return{
-            ...state,
-            data:payload,
-            loading:false
-        }
+    case GETDATA2_LOADING:
+      return {
+        ...state,
+        loading: true,
+      };
 
-        case GETDATA_ERROR:return{
-            ...state,
-            loading:false,
-            error:true
-        }
+    case GETDATA2_SUCCESS:
+      return {
+        ...state,
+        data2: payload,
+        loading: false,
+      };
 
-        case GETDATA2_LOADING:return{
-            ...state,
-            loading:true
-        }
+    case GETDATA2_ERROR:
+      return {
+        ...state,
+        loading: false,
+        error: true,
+      };
 
-        case GETDATA2_SUCCESS:return{
-            ...state,
-            data2:payload,
-            loading:false
-        }
-
-        case GETDATA2_ERROR:return{
-            ...state,
-            loading:false,
-            error:true
-        }
-
-
-        case GOAL_DATA:{
-            saveData('goal',payload)
-            return{
-                ...state,
-                goal:payload
-            }
-        }
-
-        case TUTOR_DATA:{
-            saveData('tutor',payload)
-            return{
-                ...state,
-                payload
-            }
-        }
-            
-        
-       
-
-      
-
-        default:return state
-
-
+    case GOAL_DATA: {
+      saveData("goal", payload);
+      return {
+        ...state,
+        goal: payload,
+      };
     }
-}
+
+    case TUTOR_DATA: {
+      saveData("tutor", payload);
+      return {
+        ...state,
+        tutor: payload,
+      };
+    }
+
+    default:
+      return state;
+  }
+};
