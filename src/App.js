@@ -4,7 +4,7 @@ import {Explore} from './components/Explore/Explore'
 import {Goal} from './components/Goal/Goal'
 import {Routes,Route} from 'react-router-dom'
 import Home from './components/landing_page/Home'
-import Payment from "./components/payment/Payment"
+import Payment from "./components/payment/payment"
 
 
 function App() {
