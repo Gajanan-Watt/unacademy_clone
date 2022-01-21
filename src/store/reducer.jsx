@@ -13,8 +13,8 @@ import { loadData, saveData } from "../components/utils/localStorage";
 
 const init = {
   loading: false,
-  data: { CBSE: [], MSB: [], USB: [] },
-  data2: { UPSC_CSE: [], Govt_Exams: [] },
+  data: { CBSE: [], MSB: [], USB: [],JEE:[],IIT:[] },
+  data2: { UPSC_CSE: [], Govt_Exams: [],Defence_Exams:[],CAT:[] },
   error: false,
   goal: loadData("goal") || {},
   tutor: loadData("goal") || {},

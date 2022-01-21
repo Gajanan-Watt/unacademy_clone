@@ -58,8 +58,8 @@ setFlag(flag)
                 <a href="#cbse"><p>CBSE</p></a>
                 <a href="#mh"><p>Maharashtra State Board</p></a>
                 <a href="#up"><p>Up State Board</p></a>
-                <p>JEE and NEET Preparation</p>
-                <p>IITJEE/NEET Foundation & NTSE</p>
+                <a href="#jee"><p>JEE and NEET Preparation</p></a>
+               <a href="#iit"> <p>IITJEE/NEET Foundation & NTSE</p></a>
             </div>
             <div className="scrolldiv">
 
@@ -99,6 +99,34 @@ setFlag(flag)
                         ))
                     }
                 </div>
+
+                <div className="titleDiv"><p id="jee">JEE and NEET Preparation</p></div>
+                <div className="dataDiv">
+                    {
+                        data.JEE.map((el) => (
+                            <div className="innerdiv" onClick={() => handleClick(el)}>
+                                <img src={el.img} alt="" />
+                                <p>{el.name}</p>
+                            </div>
+
+                        ))
+                    }
+                </div>
+
+                <div className="titleDiv"><p id="iit">IITJEE/NEET Foundation & NTSE</p></div>
+                <div className="dataDiv">
+                    {
+                        data.IIT.map((el) => (
+                            <div className="innerdiv" onClick={() => handleClick(el)}>
+                                <img src={el.img} alt="" />
+                                <p>{el.name}</p>
+                            </div>
+
+                        ))
+                    }
+                </div>
+
+
             </div>
 
 
@@ -112,7 +140,7 @@ setFlag(flag)
                 <a href="#upsc"><p>UPSC CSE</p></a>
                 <a href="#govt"><p>Govt Exams</p></a>
                 <a href="#defence"><p>Defence Exams</p></a>
-                <p>JEE and NEET Preparation</p>
+                <a href="#cat"><p>CAT & Other MBA Entrance Tests</p></a>
                 <p>State PSC</p>
             </div>
             <div className="scrolldiv">
@@ -144,7 +172,20 @@ setFlag(flag)
                 <div className="titleDiv"><p id="defence">Defence Exams</p></div>
                 <div className="dataDiv">
                     {
-                        data.USB.map((el) => (
+                        data2.Defence_Exams.map((el) => (
+                            <div className="innerdiv" onClick={() => handleClick(el)}>
+                                <img src={el.img} alt="" />
+                                <p>{el.name}</p>
+                            </div>
+
+                        ))
+                    }
+                </div>
+
+                <div className="titleDiv"><p id="cat">CAT & Other MBA Entrance Tests</p></div>
+                <div className="dataDiv">
+                    {
+                        data2.CAT.map((el) => (
                             <div className="innerdiv" onClick={() => handleClick(el)}>
                                 <img src={el.img} alt="" />
                                 <p>{el.name}</p>
