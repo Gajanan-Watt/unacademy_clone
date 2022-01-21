@@ -8,3 +8,5 @@ export const GETDATA2_SUCCESS='GETDATA2_SUCCESS';
 export const GETDATA2_ERROR='GETDATA2_ERROR';
 
 export const GOAL_DATA='GOAL_DATA';
+
+export const TUTOR_DATA='TUTOR_DATA'

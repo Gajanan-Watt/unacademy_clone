@@ -6,7 +6,8 @@ import {GETDATA_LOADING,
     GETDATA2_SUCCESS,
     GETDATA2_ERROR,
 
-    GOAL_DATA
+    GOAL_DATA,
+    TUTOR_DATA
     } from './actionType'
 
     import { loadData, saveData } from "../components/utils/localStorage"
@@ -14,7 +15,9 @@ import {GETDATA_LOADING,
 const init={loading:false,
     data:{CBSE:[],MSB:[],USB:[]},
     data2:{UPSC_CSE:[],Govt_Exams:[]},
-    error:false,goal:loadData('goal') || {}}
+    error:false,goal:loadData('goal') || {},
+    tutor:loadData('goal') || {}
+}
 
 export const getdataReducer=(state=init,{type,payload})=>{
     switch(type){
@@ -58,6 +61,14 @@ export const getdataReducer=(state=init,{type,payload})=>{
             return{
                 ...state,
                 goal:payload
+            }
+        }
+
+        case TUTOR_DATA:{
+            saveData('tutor',payload)
+            return{
+                ...state,
+                payload
             }
         }
             
