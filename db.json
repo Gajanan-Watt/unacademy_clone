@@ -5003,7 +5003,483 @@
                   
                 ]
               }
+      ],
+      "Defence_Exams":
+      [
+          {
+            "id": "1",
+            "name": "CDS/AFCAT/CAPF",
+            "img": "https://static.uacdn.net/topology/TUNWK/icon/origin.png",
+            "price":"₹800",
+            "tutor": [
+              {
+                "id": "1t1",
+                "name": "Vishal Kumar",
+                "img": "https://edge.uacdn.net/static/thumbnail/course/1ba309e0011a46d1b243a7f24465a0ff.png?q=100&w=512",
+                "subject": "Daily Detailed Current Affairs Show #15/Jan/2022",
+                "end": "Jan 17, 2022, 8:00 PM"
+                
+              },
+              {
+                "id": "1t2",
+                "name": "Vishal Kumar",
+                "img": "https://edge.uacdn.net/static/thumbnail/course/1ba309e0011a46d1b243a7f24465a0ff.png?q=100&w=512",
+                "subject": "Daily Detailed Current Affairs Show #15/Jan/2022",
+                "end": "Jan 18, 2022, 8:00 PM"
+                
+              },
+              {
+                "id": "1t3",
+                "name": "Vishal Kumar",
+                "img": "https://edge.uacdn.net/static/thumbnail/course/1ba309e0011a46d1b243a7f24465a0ff.png?q=100&w=512",
+                "subject": "Daily Detailed Current Affairs Show #15/Jan/2022",
+                "end": "Jan 19, 2022, 8:00 PM"
+                
+              },
+              {
+                "id": "1t4",
+                "name": "Vishal Kumar",
+                "img": "https://edge.uacdn.net/static/thumbnail/course/1ba309e0011a46d1b243a7f24465a0ff.png?q=100&w=512",
+                "subject": "Daily Detailed Current Affairs Show #15/Jan/2022",
+                "end": "Jan 20, 2022, 8:00 PM"
+                
+              }
+            ],
+            "topTut": [
+              {
+                "id": "1tt1",
+                "name": "Sandeep Kumar",
+                "desc": "I am teaching defence aspirants from past 4 + years. I have cleared AFCAT, CDS Exam multiple time and appeared in SSB.",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/58baceb8c0354dd0b86027b305ddd14d.jpg?q=75&w=1000&fm=webp",
+                "teach": "Teaches Mathematics and 38 more"
+              },
+              {
+                "id": "1tt2",
+                "name": "Shree Prateek",
+                "desc": " To empower Students with knowledge about INDIA and World through *History*Geography*Polity*Economics..Here to make General Studies Easy.🤓",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/2fdd300d0a60438a9566a832db643c4c.jpg?q=75&w=1000&fm=webp",
+                "teach": "Teaches General Awareness  and 36 more"
+              },
+              {
+                "id": "1tt3",
+                "name": "Vishal Kumar",
+                "desc": "⭐Use code-VISHALSIRLIVE for Unlock Free Classes ⭐",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/78f9ddb74d7d4d458077116f95c50815.jpg?q=75&w=1000&fm=webp",
+                "teach": "Teaches UPSC CDS and 42 more"
+              },
+              {
+                "id": "1tt4",
+                "name": "Sidhant Sharma",
+                "desc": "Cleared AFCAT, SSC-CHSL and many other competitive exams.Teaching English since 2015.My aim is to eliminate the fear of English from India.",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/ec0f0bf08c0645b59e8cfc3fcac41d8e.jpg?q=75&w=1000&fm=webp",
+                "teach": "Teaches General English and 26 more"
+              },
+              {
+                "id": "1tt5",
+                "name": "Divya Gupta",
+                "desc": "Assistant Commandant in CRPF for past 05 years. Cleared several examinations like SSC, AFCAT, CAPF etc.",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/b1a707f162ec4561a8df43f9189b7c1e.png?q=100&w=512",
+                "teach": "Teaches General Awareness  and 26 more"
+              }
+              
+            ]
+          },
+          {
+              "id": "2",
+              "name": "Services Selection Board (SSB)",
+              "img": "https://static.uacdn.net/topology/test_default.png",
+              "price":"₹7000",
+              "tutor": [
+                {
+                  "id": "1t1",
+                  "name": "Yashpal Singh Mor",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/a6da18f296d04398a1d2ba781036f7a8.png?q=100&w=512",
+                  "subject": "The 1971 Indo - Pakistan War : Genesis",
+                  "end": "Dec 3, 2021, 2:00 PM"
+                  
+                },
+                {
+                  "id": "1t2",
+                  "name": "Yashpal Singh Mor",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/a6da18f296d04398a1d2ba781036f7a8.png?q=100&w=512",
+                  "subject": "Current Affairs : AFSPA & Insurgency in North East",                  
+                  "end": "Dec 7, 2021, 2:00 PM"
+                  
+                },
+                {
+                  "id": "1t3",
+                  "name": "Yashpal Singh Mor",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/a6da18f296d04398a1d2ba781036f7a8.png?q=100&w=512",
+                  "subject": "Current Affairs Series : Electric Vehicles in India",
+                  "end": "Dec 8, 2021, 2:00 PM"
+                  
+                },
+                {
+                  "id": "1t4",
+                  "name": "Sanjay Kumar",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/fc9d1be884be4eab82ff9bc0f9ee5cd0.jpg?q=75&w=1000&fm=webp",
+                  "subject": "Free PIQ and SDT Analysis: January 2022 Part 2",
+                  "end": "Jan 3, 2022, 7:00 PM"
+                  
+                }
+              ],
+              "topTut": [
+                {
+                  "id": "1tt1",
+                  "name": "Nirmal Tanwar",
+                  "desc": "I have done my graduation from Meerut college have cleared my SSB twice from Allahabad and Bangalore have been trained In OTA Chenai AND IMA",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/33147538c5a9404bac29a91c6f459ce3.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Preparation & Strategy and 31 more"
+                },
+                {
+                  "id": "1tt2",
+                  "name": "Rajesh Kumar Pandey",
+                  "desc": "Group Captain Rajesh Pandey, Veteran is a former assessor & trainer with over 4000 Selection Interviews. Has trained Assessors for SSBs too.",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/85ba1219625c4c779e4eb7867da828b4.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches SSB and 23 more"
+                },
+                {
+                  "id": "1tt3",
+                  "name": "Sanjay Kumar",
+                  "desc": "Ex-IMA, Indian Army Professional & Intelligence Bureau I Speaker—Josh Talks I General Studies & Security Analysis & SSB Preparation",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/e485ef112ff3435ea95e3106329adb67.png?q=100&w=512",
+                  "teach": "Teaches General Awareness  and 40 more"
+                },
+                {
+                  "id": "1tt4",
+                  "name": "Sainyam Agarwal",
+                  "desc": "Put GS in your 'HEART', Rather than in your 'BRAIN' ",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/ad138b50b16e496dbab0b17f347fece1.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Economics and 27 more"
+                },
+                {
+                  "id": "1tt5",
+                  "name": "Rohit Thakur",
+                  "desc": "Cracked CDS and AFCAT Multiple times. Mentored 10000+ aspirants online. Being from Army Background I would be guiding learners to the best.",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/369fe04d83cb472d8c718ee06d102faf.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Geography and 14 more"
+                }
+                
+              ]
+            },
+            {
+              "id": "3",
+              "name": "Airforce Navy CoastGuard",
+              "img": "https://static.uacdn.net/topology/test_default.png",
+              "price":"₹333",
+              "tutor": [
+                {
+                  "id": "1t1",
+                  "name": "Mayank Chaturvedi",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/78380f4b3e02467b877b6f2b220cde3e.png?q=100&w=512",
+                  "subject": "Super30 Dhamaka - X",
+                  "end": "Jan 14, 2022, 8:00 PM"
+                  
+                },
+                {
+                  "id": "1t2",
+                  "name": "Mayank Chaturvedi",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/78380f4b3e02467b877b6f2b220cde3e.png?q=100&w=512",
+                  "subject": "Super30 Dhamaka - X",
+                  "end": "Jan 18, 2022, 8:00 PM"
+                  
+                },
+                {
+                  "id": "1t3",
+                  "name": "Mayank Chaturvedi",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/78380f4b3e02467b877b6f2b220cde3e.png?q=100&w=512",
+                  "subject": "Super30 Dhamaka - XIV",
+                  "end": "Jan 19, 2022, 8:00 PM"
+                  
+                },
+                {
+                  "id": "1t4",
+                  "name": "Mayank Chaturvedi",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/78380f4b3e02467b877b6f2b220cde3e.png?q=100&w=512",
+                  "subject": "Super30 Dhamaka - XVII",
+                  "end": "Jan 20, 2022, 8:00 PM"
+                  
+                }
+              ],
+              "topTut": [
+                {
+                  "id": "1tt1",
+                  "name": "Jitesh Kumar",
+                  "desc": "8-9 year experience in DEFENCE WING( NDA,AIR FORCE x &y group, NAVY, COAST GUARD) , mukherjee nager delhi,110009",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/37845b47c32a44e8a060225fb2116aa4.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Science and 2 more"
+                },
+                {
+                  "id": "1tt2",
+                  "name": "Mayank Chaturvedi",
+                  "desc": "I have cleared m.Sc math. I am teaching since last 8 years in self institute. also on top educator of maths on youtube..",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/a3bfd7e0d6284ae89e276bd0c74d5333.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches UPSC NDA and 30 more"
+                },
+                {
+                  "id": "1tt3",
+                  "name": "Dharm Dev Mishra",
+                  "desc": "This is D D MISHRA,  post-graduated in English Literature from Allahabad state university, LL.B. (Gold Medalist) from Purvanchal university.",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/460b35a0a7e244fbaeca06bcc44cea30.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches English and 40 more"
+                },
+                {
+                  "id": "1tt4",
+                  "name": "Uday Singh Chauhan",
+                  "desc": "अगर आपको लगती है GS बोरिंग तो उदय चौहान सर आपके लिए बनाएंगे Very Intresting एंड Scoring.. Qualified defence Educator.",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/4a980cf7ce974fc1b8cc035dc99c8ce1.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Airforce (X and Y) and 38 more"
+                },
+                {
+                  "id": "1tt5",
+                  "name": "Mohmad Shamad",
+                  "desc": "*SAMEER SIR* Physics + Chemistry जीरो से हीरो की गारंटी 😊 B.Tech, 5+Years Exp.",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/6e7ccd44f6bd41ab89dcc3b4af2189a1.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Science and 5 more"
+                }
+                
+              ]
+            },
+            {
+              "id": "4",
+              "name": "NDA",
+              "img": "https://static.uacdn.net/topology/DANNJ/icon/origin.png",
+              "price":"₹506",
+              "tutor": [
+                {
+                  "id": "1t1",
+                  "name": "Sumit Kumar",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/b056308344604af884e5b886e998ed72.png?q=100&w=512",
+                  "subject": "Abhyas - Geography MCQ Practice Session - 2",
+                  "end": "Jan 16, 2022, 6:00 PM"
+                  
+                },
+                {
+                  "id": "1t2",
+                  "name": "Sumit Kumar",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/b056308344604af884e5b886e998ed72.png?q=100&w=512",
+                  "subject": "Inquilab Series - Class - 1 History Chapterwise MCQ's",                  
+                  "end": "Jan 17, 2022, 2:00 PM"
+                  
+                },
+                {
+                  "id": "1t3",
+                  "name": "Arpit Chaudhry",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/0aad8df24d39426abafa307d08c47720.jpg?q=75&w=1000&fm=webp",
+                  "subject": "Practice Questions on Logarithms For NDA Exam",
+                  "end": "Jan 5, 2022, 9:30 PM"
+                  
+                },
+                {
+                  "id": "1t4",
+                  "name": "Mayank Chaturvedi",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/78380f4b3e02467b877b6f2b220cde3e.png?q=100&w=512",
+                  "subject": "Super30 Dhamaka - XII",
+                  "end": "Jan 17, 2022, 8:00 PM"
+                  
+                }
+              ],
+              "topTut": [
+                {
+                  "id": "1tt1",
+                  "name": "Sumit Kumar",
+                  "desc": "Learn With Sumit You tube channel, Guided above 108k+ Thousands for NDA, CDS and AirforceX & Y. Teaches Geo, Polity, History, Eco and CA.",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/c876c5e6a9fa407e85ab125e7e38f8a9.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches General Awareness and 37 more"
+                },
+                {
+                  "id": "1tt2",
+                  "name": "Shyam Sharma",
+                  "desc": "EX NAVODYAN GAT(EXPERT) Qualified UPSC CDS, NDA Selected in AIRFORCE Mentor for DEFENCE ASPIRANT",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/bb1ea3cb6bd6433c935d1b79e5da47e2.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches General Science and 40 more"
+                },
+                {
+                  "id": "1tt3",
+                  "name": "Arpit Chaudhry",
+                  "desc": "Mentor for defence aspirants  YouTube Channel with 250000 subscribers Recommended 3 times",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/78c87dfb28de4172ba5fbe0e97bbf2fe.png?q=100&w=512",
+                  "teach": "Teaches Mathematics and 65 more"
+                },
+                {
+                  "id": "1tt4",
+                  "name": "Sunil Kumar Gupta",
+                  "desc": "Sure Success with Sunil Sir - YouTube Channel. Secured 878 Rank in RAS 2012, Experience of 15+ yrs Mission of Making India Better",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/e12776acfcbf437b8dd072fdafb95617.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Geography and 44 more"
+                },
+                {
+                  "id": "1tt5",
+                  "name": "Kartikey Choudhary",
+                  "desc": "Mentoring NDA and CDS aspirants from the past 5 yrs. Qualified NDA and CDS . Teaching Judicial aspirants as well.",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/be06f407bb1b4ae19c4af5dc7df644bf.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches UPSC CDS and 30 more"
+                }
+                
+              ]
+            }
       ]
+      ,
+      "CAT_&_Other_MBA_Entrance_Tests": [
+          {
+            "id": "1",
+            "name": "CAT & Other MBA Entrance Tests",
+            "img": "https://static.uacdn.net/topology/XNDUS/icon/origin.png",
+            "price":"₹2500",
+            "tutor": [
+              {
+                "id": "1t1",
+                "name": "Ravi Prakash",
+                "img": "https://edge.uacdn.net/static/thumbnail/course/39dcd461f4d648b0ac7415298148f13c.png?q=100&w=512",
+                "subject": "Important Calls Through CAT 2021/ XAT 2022/ NMAT Scores",
+                "end": "Jan 14, 2022, 8:00 PM"
+                
+              },
+              {
+                "id": "1t2",
+                "name": "Ravi Prakash",
+                "img": "https://edge.uacdn.net/static/thumbnail/course/39dcd461f4d648b0ac7415298148f13c.png?q=100&w=512",
+                "subject": "All about MBA & Opportunities",                  
+                "end": "Jan 15, 2022, 6:00 PM"
+                
+              },
+              {
+                "id": "1t3",
+                "name": "Udit Saini",
+                "img": "https://edge.uacdn.net/static/thumbnail/course/05eb9547a8fe4a8abb021effea346fad.png?q=100&w=512",
+                "subject": "Detailed Strategy to Ace CAT-22 - Syllabus, Mock & Material",
+                "end": "Jan 16, 2022, 5:00 PM"
+                
+              },
+              {
+                "id": "1t4",
+                "name": "Udit Saini",
+                "img": "https://edge.uacdn.net/static/thumbnail/course/05eb9547a8fe4a8abb021effea346fad.png?q=100&w=512",
+                "subject": "LRDI Booster Series || Linear Arrangement || P-I",
+                "end": "Jan 16, 2022, 10:00 PM"
+                
+              }
+            ],
+            "topTut": [
+              {
+                "id": "1tt1",
+                "name": "Shabana ",
+                "desc": "An MBA by degree, academician at heart. 11+ years of experience as a mentor for the VARC section of CAT and OMETs. Cleared CAT twice with 99",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/94ea7f0be24e4ab9a8d92cad54d4fdff.jpg?q=75&w=1000&fm=webp",
+                "teach": "Teaches Verbal Ability and RC and 29 more"
+              },
+              {
+                "id": "1tt2",
+                "name": "Udit Saini",
+                "desc": "6+ years of teaching experience. Mentored 20,000+ students for CAT, XAT, SNAP, and Aptitude exams. My referral code for discount is UDITSN5",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/127c9ae30f574e37874f563596dfce97.jpg?q=75&w=1000&fm=webp",
+                "teach": "Teaches QA Practice Courses and 27 more"
+              },
+              {
+                "id": "1tt3",
+                "name": "Karishma Vanvani",
+                "desc": "Going beyond books; making learning fun; helping the youth shape their careers, & transform their lives. Quality>Quantity.",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/41277779db6c447386a5d4c955d7dc6a.jpg?q=75&w=1000&fm=webp",
+                "teach": "Teaches Verbal Ability and RC and 25 more"
+              },
+              {
+                "id": "1tt4",
+                "name": "Bharat Gupta",
+                "desc": "Engineer by degree , Mathematician by heart ✨ 24+yrs of experience in mentoring CAT aspirants...USE CODE BHARAT_GUPTA TO GET 10% DISCOUNT.",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/69b00ebff0ab4ea7a2f9fa6b71dfbbe8.jpg?q=75&w=1000&fm=webp",
+                "teach": "Teaches Quantitative Aptitude and 26 more"
+              },
+              {
+                "id": "1tt5",
+                "name": "Rahul ",
+                "desc": "FMS Delhi (Batch of 2021) |Quant 100%iler |Serial 99.5+ %iler in CAT | Use Invite/Referral Code - RAHULANANT",
+                "img": "https://edge.uacdn.net/static/thumbnail/user/95284f1dfdb64caab59f8797d24f841a.jpg?q=75&w=1000&fm=webp",
+                "teach": "Teaches Quantitative Aptitude and 20 more"
+              }
+              
+            ]
+          },
+          {
+              "id": "2",
+              "name": "GD, PI & WAT for CAT & OMETs",
+              "img": "https://static.uacdn.net/topology/test_default.png",
+              "price":"₹4000",
+              "tutor": [
+                {
+                  "id": "1t1",
+                  "name": "Lokesh Sharma",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/35B4227B-82C5-481F-92C4-BA2EA66FDBE2_special_class.png?q=100&w=512",
+                  "subject": "GDPI 3- PI Preparation: Introduce yourself",
+                  "end": "Jan 12, 2022, 9:56 PM"
+                  
+                },
+                {
+                  "id": "1t2",
+                  "name": "Lokesh Sharma",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/35B4227B-82C5-481F-92C4-BA2EA66FDBE2_special_class.png?q=100&w=512",
+                  "subject": "GDPI 1 - Why MBA / SOP",                  
+                  "end": "Jan 10, 2022, 10:05 PM"
+                  
+                },
+                {
+                  "id": "1t3",
+                  "name": "Sameer Ahmed",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/55E1BB28-D528-49CF-A501-2AA51C7A808A_special_class.png?q=100&w=512",
+                  "subject": "Introduction to Group Discussion & Personal Interview- Skills & Ethics",
+                  "end": "Dec 30, 2021, 11:00 PM"
+                  
+                },
+                {
+                  "id": "1t4",
+                  "name": "Karishma Vanvani",
+                  "img": "https://edge.uacdn.net/static/thumbnail/course/9dd57b37894e43e49bc94108ea84f552.png?q=100&w=512",
+                  "subject": "GDPI Basics - 4 (Unlock code KARISHMALIVE)",
+                  "end": "Jan 13, 2022, 12:00 PM"
+                  
+                }
+              ],
+              "topTut": [
+                {
+                  "id": "1tt1",
+                  "name": "Sameer Ahmed",
+                  "desc": "4+ years of mentoring 20k+ students. BULATS - B2(Upper) | IELTS - 8.4 | VARC - 99+ %iler in CAT | Use referral/invite code : SAM",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/d1e819ca193b43d29ff31e8501b6fd66.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Personal Development Plan and 32 more"
+                },
+                {
+                  "id": "1tt2",
+                  "name": "Abhilasha Swarup",
+                  "desc": "21 years of teaching VA, RC, VOCABULARY and CR, writer, columnist, poetess. now a published author! use ABHICATLIVE to get 10% discount. ",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/92cac89497474d2b8d2aa5b9cc99c2b9.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Verbal and 34 more"
+                },
+                {
+                  "id": "1tt3",
+                  "name": "Shalini ",
+                  "desc": "Teaching since 2010. Expertise in VARC for CAT, XAT, SNAP, CMAT, NMAT, OMETs . Use  code - SHALINI09 for Free Content & Plus Subscription",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/5fce4cda5df34c86a87d454e229fb19d.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Verbal Ability and RC and 26 more"
+                },
+                {
+                  "id": "1tt4",
+                  "name": "Shweta Sharma",
+                  "desc": "Use code SHWETA18 for subscription .Passionately a Teacher with a  teaching experience of 9 years I have trained more  than 30,000 students",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/789791f949fe4bc683db69245f357f17.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Verbal Ability and RC and 21 more"
+                },
+                {
+                  "id": "1tt5",
+                  "name": "Ravi Manoram",
+                  "desc": "MBA(FMS, Delhi), BE(DTU, Delhi), author and educator. 6+yrs exp. in training CAT & OMETs aspirants, proud mentor of many 99%ilers.  ",
+                  "img": "https://edge.uacdn.net/static/thumbnail/user/0c12c960828c4c7dbee043a0a7282bef.jpg?q=75&w=1000&fm=webp",
+                  "teach": "Teaches Verbal Ability and RC and 16 more"
+                }
+                
+              ]
+            }
+      ]
+
+
     }
     
   
