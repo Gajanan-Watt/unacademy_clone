@@ -7,6 +7,7 @@ import {
   GETDATA2_ERROR,
   GOAL_DATA,
   TUTOR_DATA,
+  SHOW_SIDE,
 } from "./actionType";
 
 import { loadData, saveData } from "../components/utils/localStorage";
@@ -17,7 +18,8 @@ const init = {
   data2: { UPSC_CSE: [], Govt_Exams: [],Defence_Exams:[],CAT:[] },
   error: false,
   goal: loadData("goal") || {},
-  tutor: loadData("goal") || {},
+  tutor: loadData("tutor") || {},
+  show: loadData('show') || false
 };
 
 export const getdataReducer = (state = init, { type, payload }) => {
@@ -75,6 +77,14 @@ export const getdataReducer = (state = init, { type, payload }) => {
       return {
         ...state,
         tutor: payload,
+      };
+    }
+
+    case SHOW_SIDE: {
+      saveData("show", payload);
+      return {
+        ...state,
+        show: payload,
       };
     }
 
