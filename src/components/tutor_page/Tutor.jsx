@@ -1,15 +1,22 @@
 import "./tutor.css";
 import { useSelector } from "react-redux";
 import Footer from "../Footer/Footer";
-import { Navbar2 } from "../Navbar/Navbar";
+
+import { Overlay } from "../Login/Overlay";
+import { Navbar1,Navbar2 } from "../Navbar/Navbar";
 
 export const Tutor = () => {
   const { tutor } = useSelector((state) => ({ tutor: state.tutor }));
+  
+  const {show,phone} =useSelector((state)=>({show:state.show,phone:state.phone}))
   console.log(tutor);
 
   return (
+   
+
     <div className="tutor_sec">
-      <Navbar2 />
+    {phone?<Navbar2 /> :<Navbar1 /> }
+    {show?<Overlay />:show}
 
       <div className="tutor_header">
         <div className="tutor_img">

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { Overlay } from "../Login/Overlay";
 import {
   getdataError,
   getdataLoading,
@@ -13,13 +14,17 @@ import {
 } from "../../store/action";
 import { ExploreTop } from "./ExploreTop";
 import "./Explore.css";
-import { Navbar2 } from "../Navbar/Navbar";
+import { Navbar1,Navbar2 } from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
 export const Explore = () => {
   const dispatch = useDispatch();
 
+  const {show} =useSelector((state)=>({show:state.show}))
+
   const navigate = useNavigate();
+
+  const {phone}=useSelector((state)=>({phone:state.phone}))
 
   const { data, data2 } = useSelector((state) => ({
     data: state.data,
@@ -28,7 +33,7 @@ export const Explore = () => {
 
   useEffect(() => {
     dispatch(getdataLoading());
-    fetch("http://localhost:3001/one")
+    fetch("https://unacademyclone.herokuapp.com/one")
       .then((res) => res.json())
       .then((d) => dispatch(getdataSuccess(d)))
       .catch((err) => dispatch(getdataError(err)));
@@ -36,7 +41,7 @@ export const Explore = () => {
 
   useEffect(() => {
     dispatch(getdata2Loading());
-    fetch("http://localhost:3001/second")
+    fetch("https://unacademyclone.herokuapp.com/second")
       .then((res) => res.json())
       .then((d) => dispatch(getdata2Success(d)))
       .catch((err) => dispatch(getdata2Error(err)));
@@ -54,7 +59,8 @@ export const Explore = () => {
 
   return (
     <div>
-      <Navbar2 />
+      {phone?<Navbar2 /> :<Navbar1 /> }
+      {show?<Overlay />:show}
       <ExploreTop sendFlag={sendFlag} />
       {flag == 1 ? (
         <div className="mainDiv">

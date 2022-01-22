@@ -8,6 +8,7 @@ import {
   GOAL_DATA,
   TUTOR_DATA,
   SHOW_SIDE,
+  PHONE_NUMBER,
 } from "./actionType";
 
 import { loadData, saveData } from "../components/utils/localStorage";
@@ -19,7 +20,8 @@ const init = {
   error: false,
   goal: loadData("goal") || {},
   tutor: loadData("tutor") || {},
-  show: loadData('show') || false
+  show: false,
+  phone:''
 };
 
 export const getdataReducer = (state = init, { type, payload }) => {
@@ -81,12 +83,21 @@ export const getdataReducer = (state = init, { type, payload }) => {
     }
 
     case SHOW_SIDE: {
-      saveData("show", payload);
       return {
         ...state,
         show: payload,
       };
     }
+
+    
+    case PHONE_NUMBER: {
+      saveData("phone", payload);
+      return {
+        ...state,
+        phone: payload,
+      };
+    }
+
 
     default:
       return state;
