@@ -1,14 +1,30 @@
 
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import HomeBlock3 from "./HomeBlock";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 import "./Home.css";
+import { Overlay } from "../Login/Overlay";
+import { useDispatch } from "react-redux";
+import { showSide } from "../../store/action";
+import { useSelector } from "react-redux";
 
 function Home() {
   const ref = React.useRef(null);
+
+// const [show,setShow]=useState(false)
+const {show} =useSelector((state)=>({show:state.show}))
+const dispatch = useDispatch()
+
+  const handleLogin=()=>{
+    dispatch(showSide(!show))
+    console.log(show);
+    // setShow(!show)
+  }
+
+  
 
   React.useEffect(() => {
     ref.current.continuousStart();
@@ -18,6 +34,7 @@ function Home() {
   return (
     // <BeforeHomePageStyled>
     <>
+    {show?<Overlay />:show}
       <LoadingBar color="#08BD80" height="4px" ref={ref} />
       <div className="parent_head">
       <div className="header">
@@ -28,7 +45,7 @@ function Home() {
             alt="logo"
           />
 
-          <button className="button">Login</button>
+          <button onClick={handleLogin} className="button">Login</button>
         </div>
         <div className="heading">
           <div className="head">
