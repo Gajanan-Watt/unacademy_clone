@@ -1,0 +1,198 @@
+
+
+#overlayLogin{
+  position: fixed;
+width: 60.3%;
+height: 100vh;
+left: 0px;
+top: 0px;
+padding: 0% 3%;
+box-sizing: border-box;
+background-color: rgba(0, 0, 0, 0.5);
+z-index: 5;
+}
+
+#overlaySec{
+  position: fixed;
+  width: 45.7%;
+  height: 100vh;
+  right: 0px;
+  top: 0px;
+  padding: 0% 3%;
+  box-sizing: border-box;
+  background: #ffffff;
+  z-index: 5;
+}
+#closeBtn{
+  position: absolute;
+  left: 50px;
+  right: 2%;
+  top: 3%;
+  bottom: 2%;
+  width: 24px;
+  height: 24px;
+  max-width: 24px;
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+ 
+.overinput{
+  background: #ffffff;
+border: 1px solid #e9eef2;
+box-sizing: border-box;
+border-radius: 6px;
+width: 450px;
+height: 54px;
+margin-right: 5rem;
+padding: 0 20px;
+font-size: 17px !important;
+}
+#overinput2{
+  background: #ffffff;
+  border: 1px solid #e9eef2;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 450px;
+  height: 54px;
+  padding: 0 20px;
+  font-size: 17px !important;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  visibility: hidden;
+}
+#overloginbtn{
+  outline: none;
+  color: #7a8b94;
+  border: none;
+  background-color: rgb(233 238 242 / 40%);
+  margin-top: 6rem;
+  margin-left: -4rem;
+} 
+
+#oververifybtn{
+  outline: none;
+  color: #7a8b94;
+  border: none;
+  background-color: rgb(233 238 242 / 40%);
+  margin-top: 6rem;
+  margin-left: -4rem;
+  display: none;
+} 
+.overcreatebtn{
+  color: #08bd80;
+    background-color: white;
+    border-bottom: 1px dashed #08bd80;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.overflexlast{
+  display: flex;
+  align-items: baseline;
+  margin-top: -3rem;
+  justify-content: space-around;
+  margin-right: 3rem;
+}
+#loginOver{
+  margin-top: 3rem;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: justify;
+    line-height: 120%;
+    color: #3c4852
+    
+}
+.PorH6{
+ 
+  display: flex;
+    margin-top: -2rem;
+    align-items: baseline;
+    gap: 8px;
+}
+
+#overinput3{
+  background: #ffffff;
+  border: 1px solid #e9eef2;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 450px;
+  height: 54px;
+  padding: 0 20px;
+  font-size: 17px !important;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  
+visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* second */
+#overlayLogin1{
+  position: fixed;
+width: 60.3%;
+height: 100vh;
+left: 0px;
+top: 0px;
+display: none;
+padding: 0% 3%;
+box-sizing: border-box;
+background-color: rgba(0, 0, 0, 0.5);
+z-index: 5;
+}
+
+#overlaySec1{
+  position: fixed;
+  width: 45.7%;
+  height: 100vh;
+  right: 0px;
+  top: 0px;
+  padding: 0% 3%;
+  box-sizing: border-box;
+  background: #ffffff;
+  z-index: 5;
+}
+#closeBtn1{
+  position: absolute;
+  left: 50px;
+  right: 2%;
+  top: 3%;
+  bottom: 2%;
+  width: 24px;
+  height: 24px;
+  max-width: 24px;
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+#overloginbtn1{
+  outline: none;
+  color: #7a8b94;
+  border: none;
+  background-color: rgb(233 238 242 / 40%);
+  margin-top: 2rem;
+  margin-right: 24rem;
+} 

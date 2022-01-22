@@ -15,7 +15,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.25.0",
-    "firebase": "^9.6.3",
+    "firebase": "^8.6.2",
     "firebaseui": "^6.0.0",
     "json-server": "^0.17.0",
     "material-icons": "^1.10.6",

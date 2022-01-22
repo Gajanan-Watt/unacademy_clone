@@ -10,3 +10,5 @@ export const GETDATA2_ERROR='GETDATA2_ERROR';
 export const GOAL_DATA='GOAL_DATA';
 
 export const TUTOR_DATA='TUTOR_DATA'
+
+export const SHOW_SIDE='SHOW_SIDE'

@@ -1,0 +1,28 @@
+.navbar {
+  /* border: 1px solid red; */
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  width: 12%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #08bd80;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1%;
+}
+.navbar > img {
+  margin-top: 30px;
+}
+.user_pic {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-size: contain;
+}

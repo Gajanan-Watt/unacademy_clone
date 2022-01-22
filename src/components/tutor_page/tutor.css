@@ -1,27 +1,126 @@
+body {
+  background-color: #fcfcfc;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  /* border: 1px solid red; */
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  width: 12%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #08bd80;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1%;
+}
+
 .tutor_sec {
   width: 98%;
-  height: 1200px;
-  border: 1px solid red;
+  height: 2000px;
+  border: none;
   margin: auto;
 }
+
 .tutor_header {
   width: 80%;
   min-width: 786px;
   height: 200px;
-  border: 1px solid blue;
+  padding-top: 40px 10px 10px 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
   margin: auto;
+  margin-top: 40px;
   display: flex;
 }
 .tutor_img {
   width: 20%;
   height: 90%;
-  border: 1px solid green;
+  border: none;
+  margin: 20px;
 }
+.tutor_img > img {
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  border-style: ridge;
+  border-radius: 50%;
+}
+
 .tutor_info {
-  width: 70%;
+  width: 76%;
   height: 90%;
-  border: 1px solid brown;
+  border: none;
+  text-align: left;
+  margin: 7px 5px 0px 30px;
+  padding: 4px 10px 2px 10px;
+  font-size: 14px;
 }
+
 .tutor_btn {
-  height: 30px;
+  height: 40px;
+  color: whitesmoke;
+  text-align: center;
+  margin: 40px 14px 30px 2px;
+}
+
+.tutor_content {
+  width: 86%;
+  height: 1900px;
+  border: none;
+  margin: auto;
+  display: flex;
+}
+.tutor_content > .tutor_leftsec {
+  width: 74%;
+  height: 100%;
+  border: none;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tutor_content > .tutor_rightsec {
+  width: 27%;
+  height: 400px;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 70px 2px 2px 10px;
+  text-align: left;
+  font-size: 20px;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+.tutor_container {
+  width: 330px;
+  height: 380px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+}
+.tutor_container p {
+  padding-left: 10px;
+  text-align: left;
+  font-size: 14px;
+  font-family: 10px BlinkMacSystemFont, sans-serif !important;
+}
+.tutor_container p:nth-child(3) {
+  font-weight: bold;
+}
+.tutor_container > img {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+  background-size: contain;
 }
