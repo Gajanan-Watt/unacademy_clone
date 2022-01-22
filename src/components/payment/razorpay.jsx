@@ -37,7 +37,7 @@ export default function PayClick() {
         ) {
           window.location.href = "http://localhost:3000/live";
         } else {
-          window.location.href = "http://localhost:3000/";
+          window.location.href = "http://localhost:3000/live";
         }
       },
       prefill: {
