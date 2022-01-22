@@ -8,6 +8,7 @@ import {
   GOAL_DATA,
   TUTOR_DATA,
   SHOW_SIDE,
+  PHONE_NUMBER,
 } from "./actionType";
 
 export const getdataLoading = () => {
@@ -69,6 +70,13 @@ export const tutorData = (payload) => {
 export const showSide = (payload) => {
   return {
     type: SHOW_SIDE,
+    payload,
+  };
+};
+
+export const phoneNumber = (payload) => {
+  return {
+    type: PHONE_NUMBER,
     payload,
   };
 };

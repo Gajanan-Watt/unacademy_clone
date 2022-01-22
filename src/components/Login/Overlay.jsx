@@ -1,10 +1,10 @@
 import './Overlay.css'
 import CloseIcon from '@mui/icons-material/Close';
-import { showSide } from '../../store/action';
+import { phoneNumber, showSide } from '../../store/action';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 import {auth,firebase} from '../utils/Config'
-
+import {useNavigate} from 'react-router-dom'
 
 export const Overlay = () => {
 
@@ -14,6 +14,8 @@ export const Overlay = () => {
 
     const [mobile,setMobile]=useState(0)
     const [otp,setOtp]=useState(0)
+
+    const navigate=useNavigate()
 
 
 
@@ -70,12 +72,18 @@ export const Overlay = () => {
             window.confirmationResult.confirm(otp).then((result) => {
               // User signed in successfully.
               const user = result.user;
-              console.log(JSON.stringify(user))
-              alert("User is verified")
+              console.log(JSON.stringify(user.phoneNumber))
+
+            //   alert("User is verified")
+                dispatch(phoneNumber(user.phoneNumber))
+
+            navigate('/explore')
               // ...
             }).catch((error) => {
               // User couldn't sign in (bad verification code?)
               // ...
+              navigate('/home')
+              alert('Incorrect User Details Or OTP')
             });
     }
 

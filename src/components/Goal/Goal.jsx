@@ -6,17 +6,19 @@ import { TopEducator } from "./TopEducator";
 import { Video } from "./Video";
 import { Video2 } from "./Video2";
 import { Video3 } from "./Video3";
-import { Navbar2 } from "../Navbar/Navbar";
+import { Overlay } from "../Login/Overlay";
+import { Navbar1,Navbar2 } from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
 export const Goal = () => {
   const { goal } = useSelector((state) => ({ goal: state.goal }));
-
+  const {show,phone} =useSelector((state)=>({show:state.show,phone:state.phone}))
   console.log(goal);
 
   return (
     <div>
-      <Navbar2 />
+      {phone?<Navbar2 /> :<Navbar1 /> }
+      {show?<Overlay />:show}
       <GoalSec1 name={goal.name} />
       <GoalSec2 />
       <LiveClasses tutor={goal.tutor} />

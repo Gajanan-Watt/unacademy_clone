@@ -1,6 +1,21 @@
 import "./Navbar.css";
 
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { showSide } from "../../store/action";
+
+
 export const Navbar1 = () => {
+
+  
+const {show} =useSelector((state)=>({show:state.show}))
+const dispatch = useDispatch()
+
+const handleLogin=()=>{
+  dispatch(showSide(!show))
+  console.log(show);
+  // setShow(!show)
+}
   return (
     <div className="navbar">
       <img
@@ -9,7 +24,7 @@ export const Navbar1 = () => {
         alt="logo"
       />
 
-      <button className="button">Login</button>
+      <button onClick={handleLogin} className="button">Login</button>
     </div>
   );
 };
