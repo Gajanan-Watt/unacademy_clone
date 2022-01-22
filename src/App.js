@@ -7,9 +7,11 @@ import Home from "./components/landing_page/Home";
 import Payment from "./components/payment/payment";
 import { Tutor } from "./components/tutor_page/Tutor";
 
+
 function App() {
   return (
     <div className="App">
+     
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/explore" element={<Explore />}></Route>
