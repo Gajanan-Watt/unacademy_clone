@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./components/landing_page/Home";
 import Payment from "./components/payment/payment";
 import { Tutor } from "./components/tutor_page/Tutor";
+import LiveClass from "./components/Live/LiveClass";
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         <Route path="/goal" element={<Goal />}></Route>
         <Route path="/goal/tutor/:name" element={<Tutor />}></Route>
         <Route path="/payment" element={<Payment />}></Route>
+        <Route path="/live" element={<LiveClass />}></Route>
+
       </Routes>
     </div>
   );
