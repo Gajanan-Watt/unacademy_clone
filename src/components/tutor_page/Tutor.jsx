@@ -1,6 +1,7 @@
 import "./tutor.css";
 import { useSelector } from "react-redux";
 import Footer from "../Footer/Footer";
+import { Navbar2 } from "../Navbar/Navbar";
 
 export const Tutor = () => {
   const { tutor } = useSelector((state) => ({ tutor: state.tutor }));
@@ -8,15 +9,8 @@ export const Tutor = () => {
 
   return (
     <div className="tutor_sec">
-      <div className="navbar">
-        <img
-          style={{ cursor: "pointer" }}
-          src="https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=256"
-          alt="logo"
-        />
+      <Navbar2 />
 
-        <button className="button">Login</button>
-      </div>
       <div className="tutor_header">
         <div className="tutor_img">
           <img src={tutor.img} />
