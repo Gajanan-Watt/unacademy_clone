@@ -37,120 +37,119 @@ const dispatch = useDispatch()
     {show?<Overlay />:show}
       <LoadingBar color="#08BD80" height="4px" ref={ref} />
       <div className="parent_head">
-      <div className="header">
-        <div className="navbar">
-          <img
-            style={{ cursor: "pointer" }}
-            src="https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=256"
-            alt="logo"
-          />
+        <div className="header">
+          <div className="navbar">
+            <img
+              style={{ cursor: "pointer" }}
+              src="https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=256"
+              alt="logo"
+            />
 
-          <button onClick={handleLogin} className="button">Login</button>
-        </div>
-        <div className="heading">
-          <div className="head">
-            India’s largest
+            <button onClick={handleLogin} className="button">Login</button>
+          </div>
+          <div className="heading">
+            <div className="head">
+              India’s largest
+              <br />
+              learning platform
+            </div>
             <br />
-            learning platform
-          </div>
-          <br />
-          
-          <div className="course">
-            <div className="course1">
-              <img
-                src="https://static.uacdn.net/production/_next/static/images/home/test-prep-learning.svg?q=75&w=256"
-                alt="doll"
-              />
-              <div className="line1">Prepare for</div>
-              <div className="line2">Competitive exams</div>
-              <div className="line3">Popular goles</div>
-              <div className="line4">
-                <div>UPSC CSE - GS</div>
-                <div>IIT JEE</div>
-                <div>NEET UG</div>
-                <div>Bank Exams</div>
+
+            <div className="course">
+              <div className="course1">
+                <img
+                  src="https://static.uacdn.net/production/_next/static/images/home/test-prep-learning.svg?q=75&w=256"
+                  alt="doll"
+                />
+                <div className="line1">Prepare for</div>
+                <div className="line2">Competitive exams</div>
+                <div className="line3">Popular goles</div>
+                <div className="line4">
+                  <div>UPSC CSE - GS</div>
+                  <div>IIT JEE</div>
+                  <div>NEET UG</div>
+                  <div>Bank Exams</div>
+                </div>
+                <div className="line5">
+                  <div>{"GATE & ESE"}</div>
+                  <div>UPSC CSE - Optional</div>
+                </div>
+                <Link to="/explore">
+                  <button>Start Learning</button>
+                </Link>
               </div>
-              <div className="line5">
-                <div>{"GATE & ESE"}</div>
-                <div>UPSC CSE - Optional</div>
-              </div>
-              <Link to="/explore">
-                <button>Start Learning</button>
-              </Link>
-            </div>
-            <div className="course1">
-              <img
-                src="https://static.uacdn.net/production/_next/static/images/home/test-prep-learning.svg?q=75&w=256"
-                alt="doll"
-              />
-              <div className="line1">Prepare for</div>
-              <div className="line2">Class 6 to 12</div>
-              <div className="line3">Popular boards</div>
-              <div className="line4">
-                <div>CBSE</div>
-                <div>Maharashtra Board</div>
-                <div>Uttar Pradesh Board</div>
-              </div>
-              <div className="line5">
-                <div>Uttar Pradesh Board</div>
-              </div>
-              <Link to="/explore">
-                <button>Start Learning</button>
-              </Link>
-            </div>
-          </div>
-          <br />
-          <br />
-          <br />
-          <div className="block3">
-            {block3adetails.map((el) => {
-              return <HomeBlock3 {...el} />;
-            })}
-          </div>
-          <br />
-          <br />
-          <br />
-          <div className="block4">
-            <div className="block41">
-              <div className="block411">
-                Get the learning
-                <br /> app
-              </div>
-              <div className="block412">
-                Download lessons and learn anytime,
-                <br /> anywhere with the Unacademy app
-              </div>
-              <div className="block413">
-                <a href="https://apps.apple.com/in/app/unacademy-learning-app/id1342565069?referrer%3Dutm_source%253DFooter%2526utm_medium%253DWebApp%2526utm_campaign%253DFooter%2526">
-                  <img
-                    src="https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&w=1920"
-                    alt="playstore"
-                  />
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.unacademyapp&referrer=utm_source%3DFooter%26utm_medium%3DWebApp%26utm_campaign%3DFooter%26">
-                  <img
-                    src="https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&w=1920"
-                    alt="playstore"
-                  />
-                </a>
+              <div className="course1">
+                <img
+                  src="https://static.uacdn.net/production/_next/static/images/home/test-prep-learning.svg?q=75&w=256"
+                  alt="doll"
+                />
+                <div className="line1">Prepare for</div>
+                <div className="line2">Class 6 to 12</div>
+                <div className="line3">Popular boards</div>
+                <div className="line4">
+                  <div>CBSE</div>
+                  <div>Maharashtra Board</div>
+                  <div>Uttar Pradesh Board</div>
+                </div>
+                <div className="line5">
+                  <div>Uttar Pradesh Board</div>
+                </div>
+                <Link to="/explore">
+                  <button>Start Learning</button>
+                </Link>
               </div>
             </div>
-            <div className="block42">
-              <img
-                src="https://static.uacdn.net/production/_next/static/images/newApp.png?q=75&w=640"
-                alt="mobile"
-              />
+            <br />
+            <br />
+            <br />
+            <div className="block3">
+              {block3adetails.map((el) => {
+                return <HomeBlock3 {...el} />;
+              })}
             </div>
-          </div>
-          {/* <div className="block5">
+            <br />
+            <br />
+            <br />
+            <div className="block4">
+              <div className="block41">
+                <div className="block411">
+                  Get the learning
+                  <br /> app
+                </div>
+                <div className="block412">
+                  Download lessons and learn anytime,
+                  <br /> anywhere with the Unacademy app
+                </div>
+                <div className="block413">
+                  <a href="https://apps.apple.com/in/app/unacademy-learning-app/id1342565069?referrer%3Dutm_source%253DFooter%2526utm_medium%253DWebApp%2526utm_campaign%253DFooter%2526">
+                    <img
+                      src="https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&w=1920"
+                      alt="playstore"
+                    />
+                  </a>
+                  <a href="https://play.google.com/store/apps/details?id=com.unacademyapp&referrer=utm_source%3DFooter%26utm_medium%3DWebApp%26utm_campaign%3DFooter%26">
+                    <img
+                      src="https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&w=1920"
+                      alt="playstore"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className="block42">
+                <img
+                  src="https://static.uacdn.net/production/_next/static/images/newApp.png?q=75&w=640"
+                  alt="mobile"
+                />
+              </div>
+            </div>
+            {/* <div className="block5">
                         
                     </div> */}
+          </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
-      </div>
-      </>
-    
+    </>
   );
 }
 
