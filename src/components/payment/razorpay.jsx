@@ -5,11 +5,10 @@ import { useCallback } from "react";
 import useRazorpay, { RazorpayOptions } from "react-razorpay";
 
 export default function PayClick() {
-
-    const { goal } = useSelector((state) => ({ goal: state.goal }));
-    console.log(goal);
-    let price_new = goal.price - Math.floor((goal.price * 10) / 100)
-    console.log(price_new)
+  const { goal } = useSelector((state) => ({ goal: state.goal }));
+  console.log(goal);
+  let price_new = goal.price - Math.floor((goal.price * 10) / 100);
+  console.log(price_new);
 
   const Razorpay = useRazorpay();
 
@@ -31,13 +30,15 @@ export default function PayClick() {
       order_id: order.id,
       handler: (res) => {
         console.log(res);
-       
-        if (typeof(res.razorpay_payment_id) == 'undefined' ||  res.razorpay_payment_id < 1) {
-            window.location.href = 'http://localhost:3000/';
-          } else {
-            window.location.href = 'http://localhost:3000/';
-          }
-         
+
+        if (
+          typeof res.razorpay_payment_id == "undefined" ||
+          res.razorpay_payment_id < 1
+        ) {
+          window.location.href = "http://localhost:3000/live";
+        } else {
+          window.location.href = "http://localhost:3000/live";
+        }
       },
       prefill: {
         name: "Unacademy",
@@ -51,12 +52,11 @@ export default function PayClick() {
         color: "#d4c4b9",
       },
     };
-    
+
     alert("Your Plan will be activated with in minute");
 
     const rzpay = new Razorpay(options);
     rzpay.open();
-   
   }, [Razorpay]);
 
   return (
