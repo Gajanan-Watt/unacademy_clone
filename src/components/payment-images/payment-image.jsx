@@ -10,8 +10,7 @@ function ImageShow() {
       <div className="righthand--imgcontainer">
         <div className="right--img--container">
           <span className="right--slideImages">
-            <AliceCarousel  
-            autoPlay autoPlayInterval="3000">
+            <AliceCarousel autoPlay={true} autoPlayInterval="1000">
               <img
                 src={
                   "https://static.uacdn.net/web-cms/chat_with_educator_6cb3c64761.svg?q=75&amp;w=1000&amp;fm=webp"
@@ -19,7 +18,7 @@ function ImageShow() {
                 className="slide--img"
                 alt="img"
               />
-              
+
               <img
                 src={
                   "https://static.uacdn.net/web-cms/daily_live_classes_be8fa5af21.svg?q=75&w=1000&fm=webp"
