@@ -35,9 +35,9 @@ export default function PayClick() {
           typeof res.razorpay_payment_id == "undefined" ||
           res.razorpay_payment_id < 1
         ) {
-          window.location.href = "https://unacademy-clone.vercel.app/live";
+          window.location.href = "http://localhost:3000/live";
         } else {
-          window.location.href = "https://unacademy-clone.vercel.app/live";
+          window.location.href = "http://localhost:3000/live";
         }
       },
       prefill: {
