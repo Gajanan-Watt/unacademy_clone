@@ -3,7 +3,7 @@ import firebase from "firebase";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCWDXXmfG2WxRMLBTcCcc5G7dM8E7wxmF4",
-  authDomain: "unacademy-clone.vercel.app",
+  authDomain: "fir-auth-58d47.firebaseapp.com",
   projectId: "fir-auth-58d47",
   storageBucket: "fir-auth-58d47.appspot.com",
   messagingSenderId: "582035892169",

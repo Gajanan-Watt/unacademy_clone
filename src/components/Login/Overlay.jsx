@@ -26,7 +26,8 @@ export const Overlay = () => {
             size: "invisible",
             callback: function (response) {
               console.log("Captcha Resolved");
-              this.onSignInSubmit();
+              // this.onSignInSubmit();
+              this.fromsubmit()
             },
             defaultCountry: "IN",
           }
