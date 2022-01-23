@@ -161,7 +161,7 @@ export const Explore = () => {
           </div>
           <div className="scrolldiv">
             <div className="titleDiv">
-              <p id="upsc">CBSE</p>
+              <p id="upsc">UPSC CSE</p>
             </div>
             <div className="dataDiv">
               {data2.UPSC_CSE.map((el) => (
