@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Unacademy Clone
+India's largest learning platform · Prepare for · Competitive exams · Prepare for · Class 6 to 12 · Get the learning app · Start learning with Unacademy.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As a member from the FT-Web12, we are almost on the verge of completion of the 5th unit and it was during the final week which is depicted as the construct week in Masai Bootcamp where the students as a group of 4 build the clone of any major website and the one allotted for my team was “unacademy.com”.
 
-## Available Scripts
+# Deploy Link
+https://unacademy-clone.vercel.app/
 
-In the project directory, you can run:
+# Prerequisites 
+* VS Code
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Installation 
+* Clone the repository
+    ``` 
+    git clone https://github.com/Gajanan-Watt/unacademy_clone.git
+    ```
+# Contributors
+The main Contributors for this project are
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Gajanan Wattamwar
+* Deepak Saini
+* Nitin Gupta
+* Rahul Goyal
 
-### `npm test`
+# Tech Stack
+* HTML
+* CSS
+* JAVASCRIPT
+* Webpack & Babel
+* React 
+* State Props
+* State Management
+* Use Ref, Forms & Event Handling
+* Use Effect
+* Styled UI
+* Context API
+* Routing
+* Redux
+* Store Dispatch Reducer in Redux
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Description
+* Signin/signup page:-
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot (64)](https://user-images.githubusercontent.com/91531231/150668723-dba7bc2f-bcbf-4b5e-81f9-b2bdf52fbe88.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Home page:-
 
-### `npm run eject`
+![Screenshot (63)](https://user-images.githubusercontent.com/91531231/150668737-63e54f41-7d45-47cb-94af-5e6c5039fcd1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Course Page:-
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot (65)](https://user-images.githubusercontent.com/91531231/150668759-ffee0897-7878-45e9-9db2-1ea25650d148.png)
 
-## Learn More
+* Subscription Page:-
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (66)](https://user-images.githubusercontent.com/91531231/150668776-3bd6e5c3-0a8b-4c78-ab3e-6a404c8149f3.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Tutor Page:-
 
-### Analyzing the Bundle Size
+![Screenshot (67)](https://user-images.githubusercontent.com/91531231/150668788-df0b71e6-97ae-4924-8689-9a896901c0c5.png)
+* Payment Page :-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+![Screenshot (68)](https://user-images.githubusercontent.com/91531231/150668797-73e4580b-81bb-4e07-af87-8201e796e21a.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot (69)](https://user-images.githubusercontent.com/91531231/150668805-457a42f5-707a-478b-a0ff-8dfb7d68bde5.png)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* After Payment:-
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Screenshot (70)](https://user-images.githubusercontent.com/91531231/150668826-fc7d770f-d3db-44ff-969b-0b0bdcb0caff.png)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Roles & Responsibilities:-
+* The Signin/Signup & Explore/Course page is done by Deepak.
+* Home Page & Live page is done by Gajanan.
+* Tutor page done by Nitin
+* Product Page done by Rahul.
+
+
+# Challenge-:
+We had faced a lot of issues in cloning the website. First of all we were not used to reading the code of other people. There we faced some issues. We also sometimes had to fix some issues related to merging our code through github.
+
+# Learning-:
+* We all became proficient in reading the code of team members.
+* Our code writing style became cleaner as we had to think while writing code that other team member will be reading.
+* We had to learn about many React properties that we didn’t know before.
+* Our skills in Java Script and DOM manipulation became better.
+* We all learned how to plan a project and execute that.
